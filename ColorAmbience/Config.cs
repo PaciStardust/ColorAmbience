@@ -13,10 +13,6 @@ namespace ColorAmbience
         public static ConfigApiModel Api => Data.Api;
         public static ConfigLoggerModel Debug => Data.Debug;
 
-        //todo: implement
-        //public static string Github => "https://github.com/PaciStardust/HOSCY";
-        //public static string GithubLatest => "https://api.github.com/repos/pacistardust/hoscy/releases/latest";
-
         public static string ResourcePath { get; private set; }
         public static string ConfigPath { get; private set; }
         public static string LogPath { get; private set; }
